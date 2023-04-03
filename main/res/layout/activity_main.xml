@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ckbg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="254dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="456dp"
+        android:layout_marginBottom="500dp"
+        android:fontFamily="casual"
+        android:lineSpacingExtra="24sp"
+        android:text="Username"
+        android:textColor="#FFFFFF"
+
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="465dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="428dp"
+        android:backgroundTint="#D8D2D2"
+        android:backgroundTintMode="add"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="464dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="#D8D2D2"
+        android:backgroundTintMode="add"
+        android:contentDescription="Enter Your Password"
+        android:drawableTint="#BCB5B5"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="EditableContentDescCheck" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="249dp"
+        android:layout_height="105dp"
+        android:layout_marginEnd="364dp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="casual"
+        android:text="Log in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="260dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="448dp"
+        android:layout_marginBottom="332dp"
+        android:fontFamily="casual"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="724dp"
+        android:layout_height="348dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cooekd" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

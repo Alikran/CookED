@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/solo_cook_btn"
+        android:layout_width="139dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="472dp"
+        android:text="Solo Cooking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/group_cook_btn" />
+
+    <Button
+        android:id="@+id/group_cook_btn"
+        android:layout_width="153dp"
+        android:layout_height="76dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="472dp"
+        android:text="Posted Recipes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/post_reci_btn"
+        android:layout_width="146dp"
+        android:layout_height="89dp"
+        android:layout_marginEnd="480dp"
+        android:layout_marginBottom="96dp"
+        android:text="Post Recipes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/course_cook_btn"
+        android:layout_width="177dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="96dp"
+        android:text="Course Cooking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="239dp"
+        android:layout_height="215dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/course_cook_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ccimage" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="221dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/solo_cook_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/solocookimage" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="219dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginBottom="196dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/postreciimage" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="271dp"
+        android:layout_height="168dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/group_cook_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/grpcookimage" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="687dp"
+        android:layout_height="269dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cooekd" />
+
+    <Button
+        android:id="@+id/testing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="17dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
